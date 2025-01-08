@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ada Princess Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <video autoplay loop muted playsinline class="back-video">
+            <source src="Background.mp4" type="video/mp4">
+        </video>
+        <nav class="navbar">
+            <img src="Ada.jpg" alt="Ada Princess Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Welcome to Ada Princess's Portfolio</h1>
+            <p>Unveiling creativity and innovation in design and development.</p>
+            <a href="about.html" class="btn">Explore More</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>About Ada</h2>
+                <p>Ada Princess Pacanot, 23 years old, from Ormoc City. A dedicated developer with a passion for crafting digital experiences that inspire and engage. Explore her work and achievements.</p>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="container">
+                <h2>Highlights</h2>
+                <div class="highlight-cards">
+                    <div class="card">
+                        <h3>Creative Designs</h3>
+                        <p>Innovative and aesthetic designs tailored for every need.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Dynamic Development</h3>
+                        <p>Responsive, scalable, and future-proof web solutions.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Collaboration</h3>
+                        <p>Working closely with clients to bring their visions to life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <p>Here are some of my featured projects:</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="Project1.jpg" alt="Project 1">
+                        <h3>Project One</h3>
+                        <p>A web application showcasing modern design principles.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="project2.webp" alt="Project 2">
+                        <h3>Project Two</h3>
+                        <p>A responsive e-commerce platform built for scalability.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="LCSD.png" alt="Project 3">
+                        <h3>Project Three</h3>
+                        <p>An interactive dashboard for real-time analytics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="dading.jpg" alt="User Profile Picture" class="profile-pic">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="about-me">About Me</h1>
+                        <p>I’m a mom of a 2-year-old and a student at Eastern Visayas State University.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-callout">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Interested in collaborating or learning more? Contact Ada today!</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations, inquiries, or just to say hello!</p>
+                <form action="submit_form.php" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Other Ways to Connect</h3>
+                    <p>Email: <a href="mailto:ada@example.com">adapacanot@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+">099952566017</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ada Princess. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="jss.js"></script>
+</body>
+</html>
