@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <video autoplay loop muted playsinline class="back-video">
+            <source src="Background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <nav>
+            <img src="Ada.jpg" class="logo" alt="Logo">
+            <ul>
+                <li><a href="Portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Explore my work and journey.</p>
+        </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <h1>Hi there! 👋</h1>
+            <p>
+                I'm <strong>Ada Princess Pacanot</strong>, a dedicated student at Eastern Visayas State University and a proud mom to a curious and energetic 2-year-old.
+                I thrive on balancing the roles of motherhood and academic pursuit, which has taught me the art of multitasking, patience, and resilience.
+            </p>
+            <p>
+                I’m passionate about <strong>making websites, e.g., graphic design, web development, writing</strong> and love creating impactful and meaningful work.
+                My journey is fueled by curiosity, creativity, and a drive to grow both personally and professionally.
+            </p>
+            <p>
+                This portfolio is a window into my world — showcasing my skills, experiences, and the projects I’m proud to call my own.
+                Feel free to explore and get to know me better!
+            </p>
+            <p>
+                Let’s connect and create something amazing together. 🌟
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dading.jpg" alt="User Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="about-me">About Me</h1>
+                    <p>I’m a mom of a 2-year-old and a student at Eastern Visayas State University.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
